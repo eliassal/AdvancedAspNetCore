@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assemblies timestamp="04/16/2019 16:05:17">
+  <assembly name="C:\Projects\VS2019\AdvancedAspNetCore\AdvancedAspNetCore.Tests\bin\Debug\netcoreapp2.2\AdvancedAspNetCore.Tests.dll" run-date="2019-04-16" run-time="16:05:17" total="2" passed="1" failed="1" skipped="0" time="0.023" errors="0">
+    <errors />
+    <collection total="2" passed="1" failed="1" skipped="0" name="Test collection for AdvancedAspNetCore.Tests.HomeControllerTests" time="0.023">
+      <test name="Index should return default view" type="AdvancedAspNetCore.Tests.HomeControllerTests" method="Index_should_return_default_view" time="0.0220000" result="Pass">
+        <traits />
+      </test>
+      <test name="Failing test" type="AdvancedAspNetCore.Tests.HomeControllerTests" method="ShouldFail" time="0.0010000" result="Fail">
+        <failure>
+          <message>System.NotImplementedException : The method or operation is not implemented.</message>
+          <stack-trace>   at AdvancedAspNetCore.Tests.HomeControllerTests.ShouldFail() in C:\Projects\VS2019\AdvancedAspNetCore\AdvancedAspNetCore.Tests\HomeControllerTests.cs:line 29</stack-trace>
+        </failure>
+        <traits />
+      </test>
+    </collection>
+  </assembly>
+</assemblies>

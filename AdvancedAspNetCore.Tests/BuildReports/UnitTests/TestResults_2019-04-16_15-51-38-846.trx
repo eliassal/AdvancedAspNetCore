@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="e2de376f-5e15-421d-b125-5b60ba2e6e46" name="salam@SALAM7 2019-04-16 15:51:38:795" runUser="SALAM\salam" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2019-04-16T15:51:38.8069982+02:00" queuing="2019-04-16T15:51:38.8069982+02:00" start="2019-04-16T15:51:36.7371224+02:00" finish="2019-04-16T15:51:38.8334503+02:00" />
+  <TestSettings name="default" id="54afaf7d-369d-4c9f-a8cd-3db21d630e2e">
+    <Deployment runDeploymentRoot="salam_SALAM7_2019-04-16_15_51_38_795" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="a55ab56b-071d-4de8-b1bf-ae7dee1557cc" testId="7081cd82-3295-8c4b-e997-5fe22eb0a580" testName="Failing test" computerName="SALAM7" duration="00:00:00.0010000" startTime="2019-04-16T15:51:38.5901766+02:00" endTime="2019-04-16T15:51:38.5901769+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a55ab56b-071d-4de8-b1bf-ae7dee1557cc">
+      <Output>
+        <ErrorInfo>
+          <Message>System.NotImplementedException : The method or operation is not implemented.</Message>
+          <StackTrace>   at AdvancedAspNetCore.Tests.HomeControllerTests.ShouldFail() in C:\Projects\VS2019\AdvancedAspNetCore\AdvancedAspNetCore.Tests\HomeControllerTests.cs:line 29</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b5214871-1502-47df-bea1-bdac3610e9f4" testId="184c0e06-18e0-b901-805c-d7db8a680a0d" testName="Index should return default view" computerName="SALAM7" duration="00:00:00.0210000" startTime="2019-04-16T15:51:38.5498937+02:00" endTime="2019-04-16T15:51:38.5498969+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5214871-1502-47df-bea1-bdac3610e9f4" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Failing test" storage="c:\projects\vs2019\advancedaspnetcore\advancedaspnetcore.tests\bin\debug\netcoreapp2.2\advancedaspnetcore.tests.dll" id="7081cd82-3295-8c4b-e997-5fe22eb0a580">
+      <Execution id="a55ab56b-071d-4de8-b1bf-ae7dee1557cc" />
+      <TestMethod codeBase="C:\Projects\VS2019\AdvancedAspNetCore\AdvancedAspNetCore.Tests\bin\Debug\netcoreapp2.2\AdvancedAspNetCore.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AdvancedAspNetCore.Tests.HomeControllerTests" name="Failing test" />
+    </UnitTest>
+    <UnitTest name="Index should return default view" storage="c:\projects\vs2019\advancedaspnetcore\advancedaspnetcore.tests\bin\debug\netcoreapp2.2\advancedaspnetcore.tests.dll" id="184c0e06-18e0-b901-805c-d7db8a680a0d">
+      <Execution id="b5214871-1502-47df-bea1-bdac3610e9f4" />
+      <TestMethod codeBase="C:\Projects\VS2019\AdvancedAspNetCore\AdvancedAspNetCore.Tests\bin\Debug\netcoreapp2.2\AdvancedAspNetCore.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AdvancedAspNetCore.Tests.HomeControllerTests" name="Index should return default view" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="7081cd82-3295-8c4b-e997-5fe22eb0a580" executionId="a55ab56b-071d-4de8-b1bf-ae7dee1557cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="184c0e06-18e0-b901-805c-d7db8a680a0d" executionId="b5214871-1502-47df-bea1-bdac3610e9f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 4.6.27414.05)[xUnit.net 00:00:00.92]   Discovering: AdvancedAspNetCore.Tests[xUnit.net 00:00:00.98]   Discovered:  AdvancedAspNetCore.Tests[xUnit.net 00:00:00.99]   Starting:    AdvancedAspNetCore.Tests[xUnit.net 00:00:01.14]       System.NotImplementedException : The method or operation is not implemented.[xUnit.net 00:00:01.14]       Stack Trace:[xUnit.net 00:00:01.16]         C:\Projects\VS2019\AdvancedAspNetCore\AdvancedAspNetCore.Tests\HomeControllerTests.cs(29,0): at AdvancedAspNetCore.Tests.HomeControllerTests.ShouldFail()[xUnit.net 00:00:01.16]   Finished:    AdvancedAspNetCore.Tests</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="SALAM7" outcome="Error" timestamp="2019-04-16T15:51:38.5714903+02:00">
+        <Text>[xUnit.net 00:00:01.14]     Failing test [FAIL]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

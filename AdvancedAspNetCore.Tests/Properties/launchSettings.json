@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "AdvancedAspNetCore.Tests": {
+      "commandName": "Project"
+    }
+  }
+}
