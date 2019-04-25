@@ -8,9 +8,7 @@ C:\Projects\VS2019\AdvancedAspNetCore\AdvancedAspNetCore.Tests\bin\Debug\netcore
 C:\Projects\VS2019\AdvancedAspNetCore\AdvancedAspNetCore.Tests\bin\Debug\netcoreapp2.2\AdvancedAspNetCore.Tests.runtimeconfig.dev.json
 C:\Projects\VS2019\AdvancedAspNetCore\AdvancedAspNetCore.Tests\bin\Debug\netcoreapp2.2\AdvancedAspNetCore.Tests.dll
 C:\Projects\VS2019\AdvancedAspNetCore\AdvancedAspNetCore.Tests\bin\Debug\netcoreapp2.2\AdvancedAspNetCore.Testing.dll
-C:\Projects\VS2019\AdvancedAspNetCore\AdvancedAspNetCore.Tests\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
 C:\Projects\VS2019\AdvancedAspNetCore\AdvancedAspNetCore.Tests\bin\Debug\netcoreapp2.2\AdvancedAspNetCore.Testing.pdb
-C:\Projects\VS2019\AdvancedAspNetCore\AdvancedAspNetCore.Tests\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
 C:\Projects\VS2019\AdvancedAspNetCore\AdvancedAspNetCore.Tests\obj\Debug\netcoreapp2.2\AdvancedAspNetCore.Tests.csprojAssemblyReference.cache
 C:\Projects\VS2019\AdvancedAspNetCore\AdvancedAspNetCore.Tests\obj\Debug\netcoreapp2.2\AdvancedAspNetCore.Tests.csproj.CoreCompileInputs.cache
 C:\Projects\VS2019\AdvancedAspNetCore\AdvancedAspNetCore.Tests\obj\Debug\netcoreapp2.2\AdvancedAspNetCore.Tests.AssemblyInfoInputs.cache
